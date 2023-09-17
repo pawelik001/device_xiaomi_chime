@@ -5,13 +5,13 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/spark_citrus.mk \
-    $(LOCAL_DIR)/spark_lime.mk
+    $(LOCAL_DIR)/superior_citrus.mk \
+    $(LOCAL_DIR)/superior_lime.mk
 
 COMMON_LUNCH_CHOICES := \
-    spark_citrus-user \
-    spark_citrus-userdebug \
-    spark_citrus-eng \
-    spark_lime-user \
-    spark_lime-userdebug \
-    spark_lime-eng
+    superior_citrus-user \
+    superior_citrus-userdebug \
+    superior_citrus-eng \
+    superior_lime-user \
+    superior_lime-userdebug \
+    superior_lime-eng

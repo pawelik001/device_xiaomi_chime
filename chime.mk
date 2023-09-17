@@ -326,7 +326,7 @@ PRODUCT_PACKAGES += \
     TelephonyResChime \
     WifiResCommon
 
-DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay-spark
+DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay-superior
 
 # Partitions
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
