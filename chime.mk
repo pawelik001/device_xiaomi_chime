@@ -14,9 +14,6 @@ $(call inherit-product, frameworks/native/build/phone-xhdpi-6144-dalvik-heap.mk)
 # Get non-open-source specific aspects
 $(call inherit-product, vendor/xiaomi/chime/chime-vendor.mk)
 
-# Include debugging
-$(call inherit-product, $(LOCAL_PATH)/debug-tools/debug.mk)
-
 # Inherit from proprietary files for QTI perf
 $(call inherit-product-if-exists, vendor/xiaomi/chime-perf/perf.mk)
 
